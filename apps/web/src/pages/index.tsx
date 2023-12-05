@@ -8,10 +8,10 @@ import { getCakeContract } from 'utils/contractHelpers'
 import { getBlocksFromTimestamps } from 'utils/getBlocksFromTimestamps'
 import { bitQueryServerClient, infoServerClient } from 'utils/graphql'
 import { CHAIN_IDS } from 'utils/wagmi'
+import { V3SubgraphHealthIndicator } from 'components/SubgraphHealthIndicator'
 import { SwapFeaturesProvider } from 'views/Swap/SwapFeaturesContext'
 import Swap from '../views/Swap'
 import Home from '../views/Home'
-import { V3SubgraphHealthIndicator } from 'components/SubgraphHealthIndicator'
 
 const IndexPage = () => {
   return (
